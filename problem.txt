@@ -1,0 +1,8 @@
+1. 'react-router' does not contain an export named 'browserHistory'.
+
+I had the same problem and I wasted a couple of days to figure it out. 
+This error happens simply because react-router v4 does not have the browserHistory 
+(I don't know if that's a good thing or not though). I solved the issue by installing v3 like this:
+
+npm install react-router@3 --save
+------------------------------------------------------------------
